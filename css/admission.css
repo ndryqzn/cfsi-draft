@@ -1,0 +1,85 @@
+.bg{
+  min-height: 200px;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('../img/header.png');
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.admission-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.admission-text p{
+  font-weight: bold;
+  font-size: 80px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+}
+.title-gR{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  margin-left: 6%;
+  margin-right: 6%;
+}
+.title-gR div{
+  max-width: 500px;
+}
+.title-gR p{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+  color: black;
+  font-size: 25px;
+  text-align: center;
+}
+.guidelines-registrationform{
+  margin-top: 30px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: lightblue;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-image: url('../img/blue.png');
+}
+.guidelines{
+  padding: 40px;
+  background-image: url('../img/paper.jpg');
+  max-width: 400px;
+}
+.guidelines-container{
+  text-align: justify;
+}
+.guidelines-title{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+.num-of-guidelines{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+.forms{
+  max-width: 400px;
+}
+.branchs{
+  background-color: #0116328e;
+  border: 2px solid #ffd930;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+.branch{
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}

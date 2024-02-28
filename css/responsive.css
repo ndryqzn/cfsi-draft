@@ -1,0 +1,62 @@
+@media(max-width: 700px){
+  .year img{
+    width: 250px;
+    padding-left: 30px;
+  }
+  .title-anniv{
+    font-size: 30px;
+  }
+  .title-cfsi{
+    font-size: 10px;
+  }
+  .text-intro{
+    margin-left: -10px;
+  }
+  .logos img{
+    width: 50px;
+    padding-right: 7px;
+  }
+  .logos{
+    margin-top: -50px;
+  }
+
+  .school-logo-title{
+    padding: 2% 2%;
+  }
+  .school-name{
+    font-size: 20px;
+  }
+  .school-tagline{
+    font-size: 10px;
+  }
+  .nav-links ul li{
+    display: block;
+  }
+  .nav-links{
+    position: absolute;
+    background: #011632;
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: -200px;
+    text-align: left;
+    z-index: 2;
+    transition: 1s;
+  }
+
+  nav img{
+    display: block;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+  .nav-links ul{
+    padding: 30px;
+  }
+
+  .pvm{
+    flex-direction: column;
+    column-gap: 100px;
+  }
+}

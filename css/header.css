@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.header{
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('../img/cfsi.png');
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  background-color: #f0f0f0;
+  
+}
+nav{
+  display: flex;
+  padding: 2% 6%;
+  background-color: #011632;
+  position: sticky;
+  top: 0;
+  
+  z-index: 1;
+}
+.school-name{
+  color: white;
+  font-size: 35px;
+  font-family: 'Times New Roman';
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #1D73B0;
+  margin: 0px;
+  user-select: none;
+}
+.school-tagline{
+  color: #F1E196;
+  font-size: 17px;
+  margin: 0px;
+  user-select: none;
+}
+.nav-links{
+  flex: 1;
+  text-align: right;
+}
+.nav-links ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+.nav-links ul li a{
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+  transition: 0.5;
+}
+.nav-links ul li a:hover{
+  color: #ffd930;
+}
+nav img{
+  max-width: 25px;
+  max-height: 25px;
+  display: none;
+}
